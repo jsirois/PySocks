@@ -19,7 +19,7 @@ with open(os.path.join(base_path, "socks.py")) as f:
     VERSION = re.compile(r'.*__version__ = "(.*?)"', re.S).match(f.read()).group(1)
 
 setup(
-    name="PySocks",
+    name="pysocks",
     version=VERSION,
     description="A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.",
     long_description=long_description,
